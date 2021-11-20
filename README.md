@@ -1,5 +1,7 @@
 # Weather front
 
+git clone https://github.com/aryldocesar/weatherFront-.git
+
 ## Project setup
 ```
 npm install
