@@ -1,0 +1,24 @@
+@import '@/assets/scss/_main';
+
+h1, h3{
+    color: $title_color;
+    font-family: $font-main;
+}
+
+h4{
+    color: $main_font_grey;
+    font-family: $font-main;
+}
+
+.city_name{
+    margin-bottom: 5vh;
+}
+
+.earth-icon{
+    width: 200px;
+    margin: 10px 10px 50px 10px;
+}
+
+a{
+    text-decoration: none;
+}

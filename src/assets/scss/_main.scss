@@ -1,0 +1,40 @@
+
+$title_color: #fefefe;
+$bg_color: #000;
+$main_font_color: #fefefe;
+
+$main_font_grey: #cecece;
+
+$font-main: 'Verdana', sans-serif;
+
+$snow: #E0E0E0;
+$rainy: #5E6675;
+$sunny: #52C4D5;
+$clouds: #cecece;
+$clear: #cecece;
+
+.main-city{
+    width: 42%;
+    margin: auto;
+    padding-top: 80px;
+}
+.main-home{
+    background: #000;
+    height: 100%;
+    padding-top: 80px;
+}
+
+.icon-weather-main{
+    width: 170px;
+}
+
+@media(max-width:1024px) {
+    .main-city{
+        width: 100%;
+        padding-top: 80px;
+    }
+
+    .main-home{
+        padding-top: 80px;
+    }
+}

@@ -1,0 +1,62 @@
+@import '@/assets/scss/_main';
+
+.main {
+    height: 100%;
+}
+
+.clouds{
+    background: $clouds;
+}
+
+.snow{
+    background: $snow;
+}
+
+.clear{
+    background: $clear;
+}
+
+.sunny{
+    background: $sunny;
+}
+
+.rain{
+    background: $rainy;
+}
+
+.temp_big{
+    font-size: 20vh;
+    
+}
+
+.icon-celsius{
+    font-size: 5vh;
+    top: -100px;
+}
+
+.icon-weather{
+    height: 78px;
+}
+
+.icon-weather-main{
+    margin-top: -75px;
+}
+
+.city-obs{
+    margin-top: 7vh;
+}
+
+.info-text{
+    font-weight: bold;
+}
+
+.daily-info{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+@media(max-width:2500px) {
+    .icon-celsius{
+        top: -84px;
+    }
+}
